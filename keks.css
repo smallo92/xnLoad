@@ -4,8 +4,31 @@
 html {
   margin: 0;
   background-size: cover;
-  background: url("1.jpg") no-repeat center center fixed;
+  background: url("") no-repeat center center fixed;
+  background: rgb(0,0,0);
   transition: 3s;
+}
+
+.center{
+	position: absolute;
+	width: 40%;
+	height: 70%;
+	left: 50%;
+	top: 50%;
+	margin-top: -18%;
+	margin-left: 5%;
+	padding: 2%;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: white;
+	font-size: 1.3rem;
+	font-family: BankGothic;
+}
+
+.center h2
+{
+    font-family: BankGothic;
+    font-size: 40px;
+    margin: 0px;
 }
 
 div#texttop { 
@@ -73,6 +96,7 @@ h1, h2 {
   background: transparent;
   z-index: 0;
 }
+
 /* add a single stroke */
 h1:before, h2:before {
   content: attr(title);
